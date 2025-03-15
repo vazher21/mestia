@@ -46,7 +46,7 @@
         Referer: "https://ticket.vanillasky.ge/ge/tickets",
         "Referrer-Policy": "strict-origin-when-cross-origin",
       },
-      body: `types=0&departure=7&date_picker=04%2F${dayOfTheMonth}%2F2025&arrive=6&date_picker_arrive=03%2F15%2F2025&person_count=3&person_types%5Badult%5D=3&person_types%5Bchild%5D=0&person_types%5Binfant%5D=0&op=&form_build_id=form-MAv1UV_POiTJY5WOUlcC92ZMCZWnTqIHQJnWYMcO8W0&form_id=form_select_date`,
+      body: `types=0&departure=7&date_picker=03%2F${27}%2F2025&arrive=6&date_picker_arrive=03%2F15%2F2025&person_count=3&person_types%5Badult%5D=3&person_types%5Bchild%5D=0&person_types%5Binfant%5D=0&op=&form_build_id=form-MAv1UV_POiTJY5WOUlcC92ZMCZWnTqIHQJnWYMcO8W0&form_id=form_select_date`,
       method: "POST",
     })
       .then((r) => r.text())
