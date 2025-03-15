@@ -62,6 +62,7 @@
         user: "vazha2121@gmail.com",
         pass: "urej tqmt lpzw lbjc",
       },
+      logger: true,
     });
 
     const mailOptions = {
