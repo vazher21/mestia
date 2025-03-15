@@ -69,6 +69,8 @@
       text: `${exactDate} aprils daido frena`,
     };
 
+    console.log("about to send email");
+
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         console.log("SENDING EMAIL ERROR");
@@ -86,7 +88,7 @@
       const isAvailable = await isDateAvailable(date, cookie);
       if (isAvailable) {
         console.log(`${date} april is available`);
-        await sendEmail(date);
+        sendEmail(date);
         return;
       } else {
         console.log("not available");
