@@ -85,6 +85,8 @@
         console.log(`${date} april is available`);
         await sendEmail(date);
         return;
+      } else {
+        console.log("not available");
       }
     }
   }
