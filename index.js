@@ -62,6 +62,9 @@
         user: "vazha2121@gmail.com",
         pass: "urej tqmt lpzw lbjc",
       },
+      tls: {
+        rejectUnauthorized: false, // Bypass self-signed SSL errors
+      },
       logger: true,
     });
 
