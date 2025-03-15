@@ -55,7 +55,9 @@
 
   async function sendEmail(exactDate) {
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: "smtp.gmail.com",
+      port: 587, // Use port 587 instead of 465
+      secure: false, // Must be false for STARTTLS
       auth: {
         user: "vazha2121@gmail.com",
         pass: "urej tqmt lpzw lbjc",
